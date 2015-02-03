@@ -63,6 +63,16 @@
                                     <rect key="frame" x="55" y="353" width="290" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAw-KU-l7i">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.76790023679999997" blue="0.151793557" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="55" y="225" width="162" height="33"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -72,6 +82,7 @@
                                 <exclude reference="r8A-SI-tgC"/>
                                 <exclude reference="sNv-sc-rF6"/>
                                 <exclude reference="67V-ZM-tC2"/>
+                                <exclude reference="dAw-KU-l7i"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -81,6 +92,7 @@
                                 <include reference="r8A-SI-tgC"/>
                                 <include reference="sNv-sc-rF6"/>
                                 <include reference="67V-ZM-tC2"/>
+                                <include reference="dAw-KU-l7i"/>
                             </mask>
                         </variation>
                     </view>
@@ -89,6 +101,7 @@
                         <outlet property="enterNameTextField" destination="r8A-SI-tgC" id="y3v-M5-mdc"/>
                         <outlet property="mailButton" destination="sNv-sc-rF6" id="3sq-im-lmy"/>
                         <outlet property="messageLabel" destination="Bel-v3-yle" id="GLA-A3-oFb"/>
+                        <outlet property="nameLabel" destination="dAw-KU-l7i" id="bOU-qA-mjD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
