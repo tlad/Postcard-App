@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 TLAD Solutions. All rights reserved.
 //
 
+// Adding test comment
+
 import UIKit
 
 class ViewController: UIViewController {
